@@ -1,0 +1,11 @@
+# The raw download is never committed: it holds Yahoo Finance prices and the VIX and
+# Moody's levels, which their terms do not let us republish. See data/README.md.
+# staff/rebuild_raw_data.py writes it here, where the notebook expects it.
+macro_asset_raw.csv
+# Editor, OS and Python clutter
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.venv/
